@@ -28,17 +28,24 @@
  
 - Product Summary, Add, View and Edit Screens
 
+![Posts - Google Chrome 12_5_2020 1_20_49 PM](https://user-images.githubusercontent.com/75443183/101237278-64298300-36fd-11eb-81af-81101847b10e.png)
 
-![Home - Google Chrome 12_4_2020 9_45_38 AM](https://user-images.githubusercontent.com/75443183/101122434-85fd0a00-3618-11eb-8140-30faaf7dccb1.png)
 
-![Home - Google Chrome 12_4_2020 9_45_47 AM](https://user-images.githubusercontent.com/75443183/101122455-91503580-3618-11eb-9c41-f09cf67d7219.png)
+![Posts - Google Chrome 12_5_2020 1_20_58 PM](https://user-images.githubusercontent.com/75443183/101237286-75728f80-36fd-11eb-9380-16f0c03c02ac.png)
 
-![Home - Google Chrome 12_4_2020 9_46_00 AM](https://user-images.githubusercontent.com/75443183/101122474-a200ab80-3618-11eb-9eff-ce7a155883c5.png)
+
+![Posts - Google Chrome 12_5_2020 1_21_13 PM](https://user-images.githubusercontent.com/75443183/101237293-828f7e80-36fd-11eb-8c8c-ee71414f8f9e.png)
+
+
+
 
 - Location Summary, Add and Edit Screens
 
-![Home - Google Chrome 12_4_2020 9_46_13 AM](https://user-images.githubusercontent.com/75443183/101122506-af1d9a80-3618-11eb-83ea-353342caa10c.png)
 
-![Home - Google Chrome 12_4_2020 9_46_28 AM](https://user-images.githubusercontent.com/75443183/101122533-be9ce380-3618-11eb-8c50-b9d9e3cde3ea.png)
+![Posts - Google Chrome 12_5_2020 1_21_32 PM](https://user-images.githubusercontent.com/75443183/101237300-8cb17d00-36fd-11eb-93fe-8e7f3b7750a2.png)
 
-![Home - Google Chrome 12_4_2020 9_46_41 AM](https://user-images.githubusercontent.com/75443183/101122568-cceaff80-3618-11eb-80ed-398ce76e2dd1.png)
+
+![Posts - Google Chrome 12_5_2020 1_21_41 PM](https://user-images.githubusercontent.com/75443183/101237308-9a670280-36fd-11eb-9812-3d6dd1849ee2.png)
+
+
+![Posts - Google Chrome 12_5_2020 1_21_49 PM](https://user-images.githubusercontent.com/75443183/101237315-a5ba2e00-36fd-11eb-9f3e-a942dbac033c.png)
