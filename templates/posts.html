@@ -11,12 +11,16 @@
 
     </style>
     
+    <div>
     
-    <h1  style="color:saddlebrown">All Products</h1>
-    <a class="btn btn-success float-right" href="/posts/new" > Add New Post</a>
-    <a class="btn btn-secondary float-right" href="/" >-</a>
-    <a class="btn btn-primary float-right" href="/" >Home</a><br><br><br>
-             
+        <h1 style="color:saddlebrown" style="display:inline">All Products </h1>
+        <br>
+        <a class="btn btn-primary float-right" href="/" >Home</a><br><br>
+        <a class="btn btn-success float-right" href="/posts/new" >Add New Product</a>         
+        <style>h2 {color:red;}
+           </style>
+       
+    </div>     
     
    
 
@@ -34,17 +38,12 @@
         <br>
         <h4>  Price of the Product     : {{ post.pric }}</h4>
         <br><br>
-        {% if post.author %}
-            <h5>  product transported from  - {{ post.author }} on   -{{ post.date_posted }}</h5>
-        {% else %}
-            <h5>  product transported from some local store on {{ post.date_posted }}</h5>
-        {% endif %}
-        <br>
         <h5> Currently at  - {{ post.content }}</h5>
         <br>
 
         <a class="btn btn-danger" href='/posts/delete/{{post.id}}'>Delete</a>
         <a class="btn btn-primary" href='/posts/edit/{{post.id}}'>Edit</a>
+        <a class="btn btn-secondary" href='/posts/move/{{post.id}}'>Move Product</a>
         <br>
         <hr>
         <br>
