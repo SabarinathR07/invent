@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Move Product Details</title> 
+{% endblock %}
+
+{% block body %}
+<h1>Moving Product</h1>
+<br>
+    <hr>
+    <br><br>
+    
+    <form action='/posts/move/{{post.id}}' method='POST'>
+        <h4><label for="id">Product id :  {{ post.id }}</label></h4>
+        <br>
+        <br>
+        <label for="author">From Locaton:</label>
+        <input class="form-control" type="text" name='author' id='author' value="{{ post.content }}" aria-label="Enter Author">
+        <br>
+        <br>
+        <label for="content">To Location :</label>
+        <textarea class="form-control" name='content' id="content" aria-label="Enter Content" rows="1"></textarea>
+        <br>
+        <br>
+        <input type='submit'  class="btn btn-primary" value='Move'>
+        <a class="btn btn-danger" href='/posts'>Cancel</a>
+    </form>
+    <hr>
+{% endblock %}
