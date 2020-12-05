@@ -14,10 +14,6 @@
         <input class="form-control" type="text" name='title' id='title' value="{{ post.title }}" aria-label="Enter Title">
         <br>
         <br>
-        <label for="author">From :</label>
-        <input class="form-control" type="text" name='author' id='author' value="{{ post.author }}" aria-label="Enter Author">
-        <br>
-        <br>
         <label for="ptype">Type :</label>
         <input class="form-control" type="text" name='ptype' id='ptype' value="{{ post.ptype }}" aria-label="Enter type">
         <br>
@@ -30,11 +26,8 @@
         <input class="form-control" type="text" name='pric' id='pric' value="{{ post.pric }}" aria-label="Enter Price">
         <br>
         <br>
-        <label for="content">Current Location :</label>
-        <textarea class="form-control" name='content' id="content" aria-label="Enter Content" rows="1">{{ post.content }}</textarea>
-        <br>
-        <br>
         <input type='submit'  class="btn btn-primary" value='Save'>
+        <a class="btn btn-danger" href='/posts'>Cancel</a>
         
     </form>
     <hr>
