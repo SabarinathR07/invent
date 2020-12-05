@@ -21,31 +21,33 @@
   
 # Screenshots
 
-- Inventoory
+- Home
+![Home - Google Chrome 12_5_2020 7_00_37 PM](https://user-images.githubusercontent.com/75443183/101244508-f4cb8780-372c-11eb-9dbf-6e5a70fdb475.png)
 
-![Home - Google Chrome 12_4_2020 9_45_17 AM](https://user-images.githubusercontent.com/75443183/101122407-74b3fd80-3618-11eb-9258-d58fc92623df.png)
+-Produts and their location
 
- 
-- Product Summary, Add, View and Edit Screens
+![Home - Google Chrome 12_5_2020 7_00_42 PM](https://user-images.githubusercontent.com/75443183/101244512-fd23c280-372c-11eb-8273-93a90b123df8.png)
 
-![Posts - Google Chrome 12_5_2020 1_20_49 PM](https://user-images.githubusercontent.com/75443183/101237278-64298300-36fd-11eb-81af-81101847b10e.png)
+-Add new Product
 
+![Home - Google Chrome 12_5_2020 7_00_53 PM](https://user-images.githubusercontent.com/75443183/101244517-014fe000-372d-11eb-961a-030a8116f7a4.png)
 
-![Posts - Google Chrome 12_5_2020 1_20_58 PM](https://user-images.githubusercontent.com/75443183/101237286-75728f80-36fd-11eb-9380-16f0c03c02ac.png)
+-Edit product's Details
 
+![Home - Google Chrome 12_5_2020 7_01_07 PM](https://user-images.githubusercontent.com/75443183/101244518-044ad080-372d-11eb-9fe3-92a5b85f82ad.png)
 
-![Posts - Google Chrome 12_5_2020 1_21_13 PM](https://user-images.githubusercontent.com/75443183/101237293-828f7e80-36fd-11eb-8c8c-ee71414f8f9e.png)
+-Warehouses
 
+![Home - Google Chrome 12_5_2020 7_01_22 PM](https://user-images.githubusercontent.com/75443183/101244521-07de5780-372d-11eb-8544-bf2addf168e0.png)
 
+-Add Location
 
+![Home - Google Chrome 12_5_2020 7_01_27 PM](https://user-images.githubusercontent.com/75443183/101244526-0dd43880-372d-11eb-88ee-bb3eb84a0860.png)
 
-- Location Summary, Add and Edit Screens
+-Edit Locations
 
+![Home - Google Chrome 12_5_2020 7_01_36 PM](https://user-images.githubusercontent.com/75443183/101244528-13ca1980-372d-11eb-8ab8-493b155af695.png)
 
-![Posts - Google Chrome 12_5_2020 1_21_32 PM](https://user-images.githubusercontent.com/75443183/101237300-8cb17d00-36fd-11eb-93fe-8e7f3b7750a2.png)
+-Move Product
 
-
-![Posts - Google Chrome 12_5_2020 1_21_41 PM](https://user-images.githubusercontent.com/75443183/101237308-9a670280-36fd-11eb-9812-3d6dd1849ee2.png)
-
-
-![Posts - Google Chrome 12_5_2020 1_21_49 PM](https://user-images.githubusercontent.com/75443183/101237315-a5ba2e00-36fd-11eb-9f3e-a942dbac033c.png)
+![Home - Google Chrome 12_5_2020 7_01_49 PM](https://user-images.githubusercontent.com/75443183/101244530-1af12780-372d-11eb-874b-5d04fd9cac48.png)
