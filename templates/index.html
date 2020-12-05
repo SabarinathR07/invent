@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<h1>Home Page</h1>
+<br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome to the Big Market! Here  You can Buy whatever you want at low cost with good quality.</p>
+            <p>
+                <a class="btn btn-primary" href="/posts" role="button">Go To Products &raquo;</a><br><br>
+                <a class="btn btn-primary" href="/postsz" role="button">Go To Warehouse locations &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+{% endblock %}

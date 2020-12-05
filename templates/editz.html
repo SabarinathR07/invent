@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Edit Warehouse Details</title> 
+{% endblock %}
+
+{% block body %}
+<h1>Editing Location Details</h1>
+
+    <hr>
+    <h2>Edit:</h2>
+    <form action='/postsz/edit/{{post.lid}}' method='POST'>
+        <label for="mid">Location id :</label>
+        <input class="form-control" type="text" name='mid' id='mid' value="{{post.mid}}" aria-label="Enter movement id">
+        <br>
+        <br>
+        <label for="title">Name</label>
+        <input class="form-control" type="text" name='title' id='title' value="{{post.title}}" aria-label="Enter Name of the warehouse">
+        <br>
+        <br>
+        <label for="address"> Address :</label>
+        <textarea class="form-control" name='address' id="address"  aria-label="Enter address" rows="1">{{post.address}}</textarea>
+        <br>
+        <br>
+        <label for="qty">number of products</label>
+        <input class="form-control" type="text" name='qty' id='qty' value="{{post.qty}}" aria-label="Enter No of products">
+        <br>
+        <br>
+        <input type='submit'  class="btn btn-primary" value='Save'>
+        
+    </form>
+    <hr>
+{% endblock %}

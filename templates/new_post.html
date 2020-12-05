@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>New Post</title> 
+{% endblock %}
+
+{% block body %}
+<h1>New Product</h1>
+
+    <hr>
+    <h2>Create New Product:</h2>
+    <form action='/posts' method='POST'>
+        <label for="title">Product Name :</label>
+        <input class="form-control" type="text" name='title' id='title' placeholder="Enter Product name" aria-label="Enter Title">
+        <br>
+        <br>
+        <label for="author">From :</label>
+        <input class="form-control" type="text" name='author' id='author' placeholder="Enter from location" aria-label="Enter Author">
+        <br>
+        <br>
+        <label for="ptype">type :</label>
+        <input class="form-control" type="text" name='ptype' id='ptype' placeholder="Enter Type" aria-label="Enter Type">
+        <br>
+        <br>
+        <label for="pcor">Colour :</label>
+        <input class="form-control" type="text" name='pcor' id='pcor' placeholder="Enter Colour" aria-label="Enter Colour">
+        <br>
+        <br>
+        <label for="pic">Price :</label>
+        <input class="form-control" type="text" name='pric' id='pric' placeholder="Enter Price" aria-label="Enter Price">
+        <br>
+        <br>
+        <label for="content"> Current Location :</label>
+        <textarea class="form-control" name='content' id="content" placeholder="Enter Current location" aria-label="Enter Content" rows="1"></textarea>
+        <br>
+        <br>
+        <input type='submit'  class="btn btn-primary" value='Post'>
+    </form>
+    <hr>
+{% endblock %}

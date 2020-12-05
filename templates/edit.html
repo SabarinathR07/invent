@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Edit Product Details</title> 
+{% endblock %}
+
+{% block body %}
+<h1>Editing Product</h1>
+
+    <hr>
+    <h2>Edit:</h2>
+    <form action='/posts/edit/{{post.id}}' method='POST'>
+        <label for="title">Product Name :</label>
+        <input class="form-control" type="text" name='title' id='title' value="{{ post.title }}" aria-label="Enter Title">
+        <br>
+        <br>
+        <label for="author">From :</label>
+        <input class="form-control" type="text" name='author' id='author' value="{{ post.author }}" aria-label="Enter Author">
+        <br>
+        <br>
+        <label for="ptype">Type :</label>
+        <input class="form-control" type="text" name='ptype' id='ptype' value="{{ post.ptype }}" aria-label="Enter type">
+        <br>
+        <br>
+        <label for="pcor">Colour :</label>
+        <input class="form-control" type="text" name='pcor' id='pcor' value="{{ post.pcor }}" aria-label="Enter colour">
+        <br>
+        <br>
+        <label for="pric">Price :</label>
+        <input class="form-control" type="text" name='pric' id='pric' value="{{ post.pric }}" aria-label="Enter Price">
+        <br>
+        <br>
+        <label for="content">Current Location :</label>
+        <textarea class="form-control" name='content' id="content" aria-label="Enter Content" rows="1">{{ post.content }}</textarea>
+        <br>
+        <br>
+        <input type='submit'  class="btn btn-primary" value='Save'>
+        
+    </form>
+    <hr>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Postsz</title> 
+{% endblock %}
+
+{% block body %}
+<br>
+<div>
+    
+    <h1 style="color:saddlebrown" style="display:inline">All Warehouses </h1>
+    <br>
+    <a class="btn btn-primary float-right" href="/" >Home</a><br><br>
+    <a class="btn btn-success float-right" href="/postsz/new" >Add New Location</a>         
+    <style>h2 {color:red;}
+       </style>
+   
+</div>
+    <hr>
+
+    {% for postz in postsz %}
+        <h2>{{ postz.title }}</h2><br>
+        <h5> Location id : {{ postz.mid }}</h5><br>
+        <h5> No of products : {{ postz.qty }}</h5>
+        <p style="white-space:pre-wrap"> <h6>Address:</h6><h5> {{ postz.address }}</h5></p>
+        <br>
+        <br>
+        <a class="btn btn-danger" href='/postsz/delete/{{postz.lid}}'>Delete</a>
+        <a class="btn btn-primary" href='/postsz/edit/{{postz.lid}}'>Edit</a>
+        <br>
+        <hr>
+        <br>
+    {% endfor%}
+
+
+ 
+
+<hr>
+{% endblock %}
