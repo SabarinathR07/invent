@@ -29,11 +29,10 @@ def posts():
     if request.method == 'POST':
         post_title = request.form['title']
         post_content = request.form['content']
-        post_author = request.form['author']
         post_ptype = request.form['ptype']
         post_pcor = request.form['pcor']
         post_pric = request.form['pric']
-        new_post = BlogPost(title=post_title, content=post_content, author=post_author, ptype=post_ptype, pcor=post_pcor, pric=post_pric)
+        new_post = BlogPost(title=post_title, content=post_content, ptype=post_ptype, pcor=post_pcor, pric=post_pric)
         db.session.add(new_post)
         db.session.commit()
         return redirect('/posts')
@@ -55,26 +54,40 @@ def edit(id):
 
     if request.method == 'POST':
         post.title = request.form['title']
-        post.author = request.form['author']
         post.ptype = request.form['ptype']
         post.pcor = request.form['pcor']
         post.pric = request.form['pric']
-        post.content = request.form['content']
         db.session.commit()
         return redirect('/posts')
     else:
         return render_template('edit.html', post=post)
 
+
+@app.route('/posts/move/<int:id>', methods=['GET', 'POST'])
+def move(id):
+    
+    post = BlogPost.query.get_or_404(id)
+
+    if request.method == 'POST':
+        post.author = request.form['author']
+        post.content = request.form['content']
+        db.session.commit()
+        return redirect('/posts')
+    else:
+        return render_template('move.html', post=post)
+
+
+
+
 @app.route('/posts/new', methods=['GET', 'POST'])
 def new_post():
     if request.method == 'POST':
         post.title = request.form['title']
-        post.author = request.form['author']
         post.ptype = request.form['ptype']
         post.pcor = request.form['pcor']
         post.pric = request.form['pric']
         post.content = request.form['content']
-        new_post = BlogPost(title=post_title, content=post_content, author=post_author, ptype=post_ptype, pcor=post_pcor, pric=post_pric)
+        new_post = BlogPost(title=post_title, content=post_content, ptype=post_ptype, pcor=post_pcor, pric=post_pric)
         db.session.add(new_post)
         db.session.commit()
         return redirect('/posts')
