@@ -26,7 +26,8 @@
 
 -Produts and their location
 
-![Home - Google Chrome 12_5_2020 7_00_42 PM](https://user-images.githubusercontent.com/75443183/101244512-fd23c280-372c-11eb-8273-93a90b123df8.png)
+![Posts - Google Chrome 12_7_2020 7_58_34 AM](https://user-images.githubusercontent.com/75443183/101302942-e8e1e180-3862-11eb-8fd5-86d032166e4e.png)
+
 
 -Add new Product
 
