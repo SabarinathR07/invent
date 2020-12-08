@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>mPost</title> 
+{% endblock %}
+
+{% block body %}
+<br>
+<style>h3 {color:red;}
+    
+
+    </style>
+    
+    <div>
+    
+        <h1 style="color:saddlebrown" style="display:inline">Movement details </h1>
+        <br>
+        <a class="btn btn-primary float-right" href="/posts" >Posts</a><br><br>         
+        <style>h2 {color:red;}
+           </style>
+       
+    </div>     
+    
+   
+
+    <hr>
+    {% for post in posts %}
+        {% if post.author !="N/A" %}
+            <h3>Product id : {{ post.id }}</h3>
+            <br>
+            <br>
+            <h4>  From location   : {{ post.author }}</h4>
+            <br>
+            <br>
+            <h4>  To location  :   {{ post.content }}</h4>
+            <br>
+            <br>
+            <h4>  time     : {{ post.date_posted }}</h4>
+            <br><br>
+            <h5> Quantity  - {{ post.qual }}</h5>
+            <br>
+            
+            <br>
+            <hr>
+            <br>
+        {% endif %}
+    {% endfor%}
+
+
+ 
+    <a class="btn btn-primary float-center" href="/" >Home</a><br><br>
+<hr>
+{% endblock %}
