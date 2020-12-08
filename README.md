@@ -31,11 +31,13 @@
 
 -Add new Product
 
-![Home - Google Chrome 12_5_2020 7_00_53 PM](https://user-images.githubusercontent.com/75443183/101244517-014fe000-372d-11eb-961a-030a8116f7a4.png)
+![New Post - Google Chrome 12_8_2020 11_37_30 AM](https://user-images.githubusercontent.com/75443183/101446958-44d36580-394a-11eb-8322-230458b2ab67.png)
 
 -Edit product's Details
 
-![New Post - Google Chrome 12_8_2020 11_37_30 AM](https://user-images.githubusercontent.com/75443183/101446958-44d36580-394a-11eb-8322-230458b2ab67.png)
+
+![Home - Google Chrome 12_5_2020 7_01_07 PM](https://user-images.githubusercontent.com/75443183/101447391-2a4dbc00-394b-11eb-9263-fdd372a3d353.png)
+
 
 -Warehouses
 
