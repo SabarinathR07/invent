@@ -31,7 +31,8 @@
 
 -Add new Product
 
-![New Post - Google Chrome 12_8_2020 11_37_30 AM](https://user-images.githubusercontent.com/75443183/101446958-44d36580-394a-11eb-8322-230458b2ab67.png)
+![image](https://user-images.githubusercontent.com/75443183/101447897-28382d00-394c-11eb-9ebb-7ff6f3d3e875.png)
+
 
 -Edit product's Details
 
