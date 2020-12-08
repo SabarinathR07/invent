@@ -42,7 +42,7 @@
 
 -Warehouses
 
-![New Post - Google Chrome 12_8_2020 11_37_49 AM](https://user-images.githubusercontent.com/75443183/101447016-616f9d80-394a-11eb-8979-b2b0612e6886.png)
+![Move Product Details - Google Chrome 12_8_2020 7_46_09 PM](https://user-images.githubusercontent.com/75443183/101495727-e086c500-398e-11eb-994d-206d760f044f.png)
 
 
 -Add Location
@@ -55,7 +55,12 @@
 
 -Move Product
 
-![Home - Google Chrome 12_5_2020 7_01_49 PM](https://user-images.githubusercontent.com/75443183/101244530-1af12780-372d-11eb-874b-5d04fd9cac48.png)
+![Move Product Details - Google Chrome 12_8_2020 7_43_51 PM](https://user-images.githubusercontent.com/75443183/101495699-d82e8a00-398e-11eb-87a8-0788ee0f504e.png)
+
+-Moment Details
+
+![Move Product Details - Google Chrome 12_8_2020 7_45_02 PM](https://user-images.githubusercontent.com/75443183/101495717-dcf33e00-398e-11eb-86bc-23d6da3b6497.png)
+
 
 
 
