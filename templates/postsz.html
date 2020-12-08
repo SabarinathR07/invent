@@ -13,17 +13,45 @@
     <a class="btn btn-primary float-right" href="/" >Home</a><br><br>
     <a class="btn btn-success float-right" href="/postsz/new" >Add New Location</a>         
     <style>h2 {color:red;}
+    h5{color: blue;}
        </style>
    
 </div>
     <hr>
-
-    {% for postz in postsz %}
+     
+    {% for postz in postsz[0] %}
+        {% set mylist=[] %}
+        {% set ulist=[] %}
+        {% set vlist=[] %}
+        {% set c=[0] %}
+        {% set a=[0] %}
+        {% set b=[0] %}
         <h2>{{ postz.title }}</h2><br>
-        <h5> Location id : {{ postz.mid }}</h5><br>
-        <h5> No of products : {{ postz.qty }}</h5>
-        <p style="white-space:pre-wrap"> <h6>Address:</h6><h5> {{ postz.address }}</h5></p>
+        <h4> Location id : {{ postz.mid }}</h4><br>
+        
+       
+
+        {% for post in postsz[1] %}
+            
+               {%  if post.content == postz.address %}
+                    {%  if post.ptype == "Mobile" %}
+                         {% set temp=mylist.append(post.ptype) %}
+                         {% set temp=a.append(post.qual) %}
+                    {%  elif post.ptype == "I Pad" %}
+                         {% set temp=ulist.append(post.ptype) %}
+                         {% set temp=b.append(post.qual) %}
+                    {% else %}
+                         {% set temp=vlist.append(post.ptype) %}
+                         {% set temp=c.append(post.qual) %}
+                    {% endif %}
+               {% endif %}
+          
+        {% endfor%}
+        <h5> no of mobiles : {{ (mylist|length)+a[-1] }}</h5><br>
+        <h5> no of ipads :   {{ (ulist|length)+b[-1] }}</h5><br>
+        <h5> no of watches :  {{ (vlist|length)+c[-1] }}</h5>
         <br>
+        <p style="white-space:pre-wrap"> <h4>Address:</h4><h4> {{ postz.address }}</h4></p>
         <br>
         <a class="btn btn-danger" href='/postsz/delete/{{postz.lid}}'>Delete</a>
         <a class="btn btn-primary" href='/postsz/edit/{{postz.lid}}'>Edit</a>
@@ -31,6 +59,9 @@
         <hr>
         <br>
     {% endfor%}
+    <hr>
+
+  
 
 
  
