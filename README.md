@@ -47,7 +47,7 @@
 
 -Add Location
 
-![New Post - Google Chrome 12_8_2020 11_37_58 AM](https://user-images.githubusercontent.com/75443183/101447027-66cce800-394a-11eb-8f06-4c3cc3c61d7e.png)
+![image](https://user-images.githubusercontent.com/75443183/101449995-c8dc1c00-394f-11eb-8768-1cd611d74e9a.png)
 
 -Edit Locations
 
